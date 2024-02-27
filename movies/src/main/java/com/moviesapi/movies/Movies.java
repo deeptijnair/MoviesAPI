@@ -14,12 +14,16 @@ import java.util.List;
 // It also allows us to choose the name of the collection we want to use
 //Note, that this annotation is the Mongo equivalent of @Entity in JPA.
 @Document(collection = "movies")
+
 //Takes care of getters,setters ,toString methods, constructors
 @Data
+
 //Annotation for constructor that takes all the private fields below as arguments
 @AllArgsConstructor
+
 //Constructor that does not take any arguments
 @NoArgsConstructor
+
 public class Movies {
 
     @Id

@@ -15,7 +15,7 @@ public class MoviesApplication {
 
 	@GetMapping("/root")
 	public String apiRoot(){
-		return "Hello World!";
+		return "Welcome!";
 	}
 
 }
